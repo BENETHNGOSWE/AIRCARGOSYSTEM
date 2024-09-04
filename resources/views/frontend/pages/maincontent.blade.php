@@ -1,0 +1,9 @@
+@extends('frontend/layouts/main')
+@section('content')
+ @include('frontend/pages/slideimage')
+ @include('frontend/pages/servicemin')
+ @include('frontend/pages/transportationpage')
+ @include('frontend/pages/leadingpage')
+ @include('frontend/pages/goal')
+ @include('frontend/pages/beforefooter')
+@endsection
